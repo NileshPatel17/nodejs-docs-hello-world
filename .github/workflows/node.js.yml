@@ -19,10 +19,10 @@ jobs:
       with:
         node-version: '10.x'
                
-    # deploy web app using Azure credentials
+   # deploy web app using Azure credentials
     - uses: azure/webapps-deploy@v2
       with:
-        app-name: 'node-rn'
+        app-name: 'myaapp-12345'
 
     # Azure logout 
     - name: logout
