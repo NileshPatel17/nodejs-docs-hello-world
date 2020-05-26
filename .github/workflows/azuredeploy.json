@@ -6,19 +6,19 @@
     "variables": {},
     "resources": [
         {
-            "name": "webApp2",
+            "name": "my-app12345",
             "type": "Microsoft.Web/sites",
             "apiVersion": "2018-11-01",
             "location": "[resourceGroup().location]",
             "tags": {
                 "[concat('hidden-related:', resourceGroup().id, '/providers/Microsoft.Web/serverfarms/npatel_Plan')]": "Resource",
-                "displayName": "webApp2"
+                "displayName": "my-app12345"
             },
             "dependsOn": [
                 "[resourceId('Microsoft.Web/serverfarms', 'npatel_Plan')]"
             ],
             "properties": {
-                "name": "webApp2",
+                "name": "my-app12345",
                 "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', 'npatel_Plan')]"
             }
         },
