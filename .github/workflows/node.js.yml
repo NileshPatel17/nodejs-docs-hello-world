@@ -22,7 +22,7 @@ jobs:
    # deploy web app using Azure credentials
     - uses: azure/webapps-deploy@v2
       with:
-        app-name: 'myaapp-12345'
+        app-name: 'my-app12345'
 
     # Azure logout 
     - name: logout
