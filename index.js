@@ -5,7 +5,7 @@ const server = http.createServer((request, response) => {
     response.end("Hola 2.2!");
 });
 
-const port = process.env || 1337;
+onst port = process.env.PORT || 1337;
 server.listen(port);
 
 console.log("Server running at http://localhost:%d", port);
